@@ -10,7 +10,12 @@ namespace GarysGarage
 
         public void RefuelTank()
         {
-            Console.WriteLine($"Your Cessna now refuled to {this.FuelCapacity}KHw.");
+            Console.WriteLine($"Your Ram now refuled to {this.FuelCapacity}KHw.");
+        }
+
+        public override void Drive()
+        {
+            Console.WriteLine("The blue Ram drives past. RRrrrrrummbbble!");
         }
     }
 }

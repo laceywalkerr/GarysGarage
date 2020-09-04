@@ -12,6 +12,10 @@ namespace GarysGarage
         {
             Console.WriteLine($"Your Cessna now refuled to {this.FuelCapacity}.");
         }
+        public override void Drive()
+        {
+            Console.WriteLine("The white Cessna drives past. Rrrrrrumble!");
+        }
 
     }
 }

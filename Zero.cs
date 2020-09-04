@@ -9,7 +9,11 @@ namespace GarysGarage
         public string MaximumOccupancy { get; set; }
         public void ChargeBattery()
         {
-            Console.WriteLine($"Your Tesla now charged to {this.BatteryKHw}KHw.");
+            Console.WriteLine($"Your Zero now charged to {this.BatteryKHw}KHw.");
+        }
+        public override void Drive()
+        {
+            Console.WriteLine("The black Zero drives past. Yeeeeooow!");
         }
     }
 }

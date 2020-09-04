@@ -12,5 +12,10 @@ namespace GarysGarage
         {
             Console.WriteLine($"Your Tesla now charged to {this.BatteryKHw}KHw.");
         }
+
+        public override void Drive()
+        {
+            Console.WriteLine("The red Tesla drives past. Zooooooom!");
+        }
     }
 }
